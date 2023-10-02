@@ -1,0 +1,157 @@
+/* Обнуляющие стили*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+/* Стили для header*/
+.header {
+    background-image: url(/img/header/header__bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__logo {
+    margin-top: 20px;
+}
+
+.header__img,
+.header__offer {
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+}
+
+.header__title {
+    font-weight: 700;
+    font-size: 42px;
+    color: #fff;
+    margin-top: 22px;
+}
+
+.header__subtitle {
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 25px;
+    margin-bottom: 47px;
+}
+
+
+/* Стили для основного блока*/
+.main {
+    margin-top: -20px;
+    background-image: url(/img/main/main_bg.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main__inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.main__img {
+    margin-top: 31px;
+}
+
+.main__info {
+    margin-left: 166px;
+    margin-top: 130px;
+}
+
+.main__descr {
+    display: flex;
+    margin-left: auto;
+    justify-content: end;
+}
+
+.main__descr-item {
+    color: #671D00;
+    font-weight: 400;
+    font-size: 12px;
+    border: 1px solid #671D00;
+    padding: 5px 10px;
+    margin-left: 11px;
+
+}
+
+.main__table-item {
+    /* width: 632px; */
+    display: flex;
+    border: 1px solid #671D00;
+    color: #fff;
+    align-items: center;
+    /* justify-content: space-between; */
+    margin: 2px 0;
+}
+
+.main__table-img {
+    margin: 5px 0 5px 5px;
+}
+
+.main__table-info {
+    width: 170px;
+    margin-left: 20px;
+}
+
+.main__table-free {
+    width: 30px;
+    text-align: center;
+    margin-left: 75px;
+    margin-right: 100px;
+}
+
+.main__table-sub {
+    width: 80px;
+    text-align: center;
+    margin-right: 40px;
+}
+
+.main__offer {
+    display: flex;
+    align-items: end;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.main__offer-img {
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+
+}
+
+.main__form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+}
+
+.main__form-label {
+    font-weight: 400;
+    font-size: 50px;
+    color: #fff;
+}
+
+.main__form-btn{
+    color: #000;
+    font-size: 16px;
+    background-color: #FCFF00;
+    padding: 10px 15px;
+    border-radius: 7px;
+}
