@@ -52,7 +52,7 @@
 /* Стили для основного блока*/
 .main {
     margin-top: -20px;
-    background-image: url(/img/main/main_bg.png);
+    background-image: url(img/main/main_bg.png);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
