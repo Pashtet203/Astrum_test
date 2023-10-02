@@ -9,7 +9,7 @@
 
 /* Стили для header*/
 .header {
-    background-image: url(/img/header/header__bg.png);
+    background-image: url('/img/header/header__bg.png');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -52,7 +52,7 @@
 /* Стили для основного блока*/
 .main {
     margin-top: -20px;
-    background-image: url(img/main/main_bg.png);
+    background-image: url('/img/main/main_bg.png');
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
